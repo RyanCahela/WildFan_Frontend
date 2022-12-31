@@ -9,6 +9,7 @@ import {
   Container,
 } from "@chakra-ui/react";
 import NavButton from "../Components/NavButton";
+import Timer from "../Components/Timer";
 
 export default function Home() {
   return (
@@ -57,6 +58,8 @@ export default function Home() {
           </AccordionItem>
         </Accordion>
         <NavButton href="/CreateExercise">Create Exercise</NavButton>
+
+        <Timer />
       </Container>
     </>
   );
